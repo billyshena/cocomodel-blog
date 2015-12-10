@@ -30,13 +30,13 @@
     <div class="header-wrapper">
 
         <div class="right-container">
-            <a href="javascript:;">
+            <a target="_blank" href="http://cocomodel.co">
                 Aller sur cocomodel.fr
             </a>
         </div>
 
         <div class="logo">
-            <a href="javascript:;">
+            <a href="<?php echo get_site_url(); ?>">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/logo.jpg"
                      alt="Cocomodel logo"
                      width="140px"/>

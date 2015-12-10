@@ -22,8 +22,14 @@ get_header(); ?>
 
         <h2 class="main-title">Blog</h2>
 
+
+
         <!-- Articles loop -->
-		<?php if ( have_posts() ) : ?>
+		<?php 
+
+		query_posts($query_string."&order=ASC");
+
+		if ( have_posts() ) : ?>
 
 			<?php
 			// Start the loop.

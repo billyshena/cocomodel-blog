@@ -6128,3 +6128,57 @@ img.attachment-post-thumbnail{
 .post-content h3 strong, .post-content h4 strong{
     font-weight:500;
 }
+
+.logo img{
+	width:300px;
+}
+.logo-resp{
+	display:none;
+}
+
+@media screen and (max-width: 1024px) {
+	.hentry{
+		width:45%;
+	}
+	header .header-wrapper .logo{
+		padding-left:26px;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+
+	.hentry{
+		width:100%;
+	}
+
+	.right-container{
+		margin:0;
+		margin-top:10px;
+		margin-bottom:10px;
+		float:none;
+		text-align:center;
+	}
+
+	.right-container a{
+		display:inline-block;
+	}
+
+	.logo{
+		display:none;
+	}
+
+	#primary{
+		padding-top:130px;
+	}
+
+	.logo-resp {
+		display:block;
+	}
+	.logo-resp img{
+		margin: 25px auto;
+    	display: block;
+	}
+
+
+}

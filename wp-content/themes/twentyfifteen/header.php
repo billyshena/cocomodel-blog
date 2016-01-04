@@ -29,15 +29,20 @@
 
     <div class="header-wrapper">
 
+        <div class="logo-resp">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" width="240px">
+        </div>
+
+
         <div class="right-container">
             <a target="_blank" href="http://cocomodel.co">
-                Aller sur cocomodel.fr
+                Aller sur cocomodel.co
             </a>
         </div>
 
         <div class="logo">
             <a href="<?php echo get_site_url(); ?>">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/logo.jpg"
+                <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png"
                      alt="Cocomodel logo"
                      width="140px"/>
             </a>

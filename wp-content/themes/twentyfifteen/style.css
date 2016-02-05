@@ -1576,12 +1576,14 @@ img.aligncenter {
  */
 
 .hentry {
-	background-color: #fff;
-	position: relative;
-    width:32%;
-    display:inline-block;
-    padding:0px 30px;
-    margin-top:20px;
+    margin: 10px;
+    overflow:hidden;
+    height: 307px;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    border-radius: 3px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.05), 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
 }
 
 .hentry.has-post-thumbnail {
@@ -5891,55 +5893,101 @@ p > video {
 
 /* Custom Cocomodel styles */
 
+body,html{
+    height:100%;
+
+}
+
+
+
+@font-face{
+    font-family: Myriad Pro;
+    src: url('fonts/myriad-set-pro_text.woff');
+}
+body{
+    font-family:'Myriad Pro';
+}
 
 header#header{
-    position:fixed;
+    height: 60%;
+    width: 100%;
+    background: url(images/scoledge-blog-background.jpg) center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+header#header:after{
+    position:absolute;
+    content:"";
     top:0;
+    left:0;
+    right:0;
+    bottom:0;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#345365+0,2c6286+100 */
+    background: #345365; /* Old browsers */
+    background: -moz-linear-gradient(45deg,  #345365 0%, #2c6286 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  #345365 0%,#2c6286 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  #345365 0%,#2c6286 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#345365', endColorstr='#2c6286',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    opacity:0.85;
+}
+
+header.entry-header{
+    position:absolute;
+    bottom:15px;
     width:100%;
-    z-index:100;
-    background:white;
+    padding:0px 20px;
+    z-index:1;
 }
-
 header .header-wrapper{
-    max-width:1100px;
+    max-width:90%;
     margin: 0 auto;
+    position:relative;
+    z-index:1;
+    height:100%;
+}
+header .header-wrapper h1{
+
+    text-align:center;
+    position:absolute;
+    top:50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width:100%;
+    letter-spacing:1px;
+    font-size:30px;
+    line-height:42px;
+    font-weight:bold;
+    color:white;
+}
+header .header-wrapper .logo{
+    margin:20px 0px;
+    float:left;
 }
 
-header .header-wrapper .logo{
-    padding-top:50px;
-    padding-bottom:20px;
+a.scoledge-cta{
+    float:right;
+    font-size: 14px;
+    color: white;
+    padding: 6px 15px;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin: 20px 0px;
+    font-weight: bold;
 }
+
+
 
 main#main{
-    max-width:1080px;
+    max-width:960px;
     margin:0 auto;
     position:relative;
 }
 
-.previous-cta, .next-cta{
-    position:absolute;
-    top:60px;
-    font-family: 'CircularStd';
-    text-transform:uppercase;
-    font-size:1.2rem;
-    letter-spacing:1px;
-    color:#bcbdbf;
-}
 
-.next-cta img{
-    vertical-align:middle;
-    margin-top:-3px;
-    margin-left:3px;
-}
-
-.previous-cta img{
-    vertical-align:middle;
-    margin-top:-3px;
-    margin-right:3px;
-}
-.previous-cta{
-    left:20px;
-}
 
 img{
     outline:0;
@@ -5948,101 +5996,7 @@ a{
     outline:0;
 }
 
-.next-cta:hover{
-    color:#bcbdbf;
-}
 
-.previous-cta:hover{
-    color:#bcbdbf;
-}
-
-.next-cta{
-    right:28px;
-}
-
-@font-face{
-
-    font-family: CircularStd;
-    src:url('fonts/Circular/CircularStd-Book.otf');
-    font-weight: 300;
-    font-style: normal;
-
-}
-
-@font-face{
-
-    font-family: CircularStd;
-    src:url('fonts/Circular/CircularStd-BookItalic.otf');
-    font-weight: 300;
-    font-style: italic;
-
-}
-
-
-
-@font-face{
-
-    font-family: CircularStd;
-    src:url('fonts/Circular/CircularStd-Medium.otf');
-    font-weight: 400;
-    font-style: normal;
-
-}
-
-
-@font-face{
-
-    font-family: CircularStd;
-    src:url('fonts/Circular/CircularStd-MediumItalic.otf');
-    font-weight: 400;
-    font-style: italic;
-
-}
-
-
-@font-face{
-
-    font-family: CircularStd;
-    src:url('fonts/Circular/CircularStd-Bold.otf');
-    font-weight: 500;
-    font-style: normal;
-
-}
-
-
-@font-face{
-
-    font-family: CircularStd;
-    src:url('fonts/Circular/CircularStd-BoldItalic.otf');
-    font-weight: 500;
-    font-style: italic;
-
-}
-
-
-@font-face{
-
-    font-family: CircularStd;
-    src:url('fonts/Circular/CircularStd-Black.otf');
-    font-weight: 600;
-    font-style: normal;
-
-}
-
-
-@font-face{
-
-    font-family: CircularStd;
-    src:url('fonts/Circular/CircularStd-BlackItalic.otf');
-    font-weight: 600;
-    font-style: italic;
-
-}
-
-
-.circularStd{
-    font-family: 'CircularStd';
-}
 .f300{
     font-weight:300;
 }
@@ -6068,11 +6022,15 @@ h2.main-title{
 .entry-title,
 .widecolumn h2 {
     font-size: 1.5rem;
-    line-height: 1.1613;
-    margin-top:10px;
-    margin-bottom: 1.1613em;
-    font-weight:400;
-    font-family: 'CircularStd';
+    line-height: 20px;
+    margin-bottom:0;
+    font-weight:600;
+    font-family: 'Myriad pro';
+
+}
+
+.entry-title a{
+    color:white;
 }
 
 img.attachment-post-thumbnail{
@@ -6080,9 +6038,6 @@ img.attachment-post-thumbnail{
     max-height:180px;
 }
 
-#primary{
-    padding-top:125px;
-}
 
 .right-container{
     float:right;
@@ -6129,9 +6084,7 @@ img.attachment-post-thumbnail{
     font-weight:500;
 }
 
-.logo img{
-	width:300px;
-}
+
 .logo-resp{
 	display:none;
 }
@@ -6180,5 +6133,33 @@ img.attachment-post-thumbnail{
     	display: block;
 	}
 
+
+}
+
+
+.article-container{
+
+    float:left;
+    width:33.333333%;
+
+}
+
+
+.hentry:after{
+
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    content:"";
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,000000+100 */
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,
+    rgba(255,255,255, 0) 50%,
+    rgba(0,0,0,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
 
 }

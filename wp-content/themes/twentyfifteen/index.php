@@ -20,10 +20,6 @@ get_header(); ?>
 
 		<main id="main" class="site-main" role="main">
 
-        <h2 class="main-title">Blog</h2>
-
-
-
         <!-- Articles loop -->
 		<?php 
 

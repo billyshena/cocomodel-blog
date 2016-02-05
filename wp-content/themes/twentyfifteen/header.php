@@ -29,24 +29,19 @@
 
     <div class="header-wrapper">
 
-        <div class="logo-resp">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" width="240px">
-        </div>
-
-
-        <div class="right-container">
-            <a target="_blank" href="http://cocomodel.co">
-                Aller sur cocomodel.co
-            </a>
-        </div>
-
+        <a href="javascript:;" class="scoledge-cta">
+            Aller sur scoledge.com
+        </a>
         <div class="logo">
-            <a href="<?php echo get_site_url(); ?>">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png"
-                     alt="Cocomodel logo"
-                     width="140px"/>
+            <a href="javascript:;">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/scoledge-logo.png" alt="Scolege logo" width="80px"/>
             </a>
         </div>
+
+
+        <h1>Une communauté d'acteurs <br/> dans l'éducation numérique de demain</h1>
+
+
 
     </div>
 

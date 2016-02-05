@@ -8,14 +8,20 @@
  * @subpackage Twenty_Fifteen
  * @since Twenty Fifteen 1.0
  */
+
+// Post thumbnail.
+
+$url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large');
+
 ?>
 
+<div class="article-container">
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    <?php
-    // Post thumbnail.
-    twentyfifteen_post_thumbnail();
-    ?>
+
+<article
+    style="background-image: url(<?php echo $url[0]; ?>)"
+    id="post-<?php the_ID();?>" <?php post_class(); ?>>
+
 	<header class="entry-header">
 		<?php
 			if ( is_single() ) :
@@ -34,3 +40,4 @@
 	?>
 
 </article><!-- #post-## -->
+</div>

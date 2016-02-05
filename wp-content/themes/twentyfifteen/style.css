@@ -5963,7 +5963,7 @@ header .header-wrapper h1{
     font-weight:bold;
     color:white;
 }
-header .header-wrapper .logo{
+.logo{
     margin:20px 0px;
     float:left;
 }
@@ -5982,9 +5982,10 @@ a.scoledge-cta{
 
 
 main#main{
-    max-width:960px;
+    width:800px;
     margin:0 auto;
     position:relative;
+    padding-top:20px;
 }
 
 
@@ -6056,11 +6057,10 @@ img.attachment-post-thumbnail{
 }
 
 .post-content{
-    max-width:70%;
-    margin: 0 auto;
-    font-family: 'CircularStd';
     font-weight:300;
-    font-size:1.8rem;
+    padding:0px 20px;
+    font-size:21px;
+    line-height:1.58;
 }
 .post-content img{
     margin:40px 0px;
@@ -6153,6 +6153,7 @@ img.attachment-post-thumbnail{
     right:0;
     bottom:0;
     content:"";
+
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,000000+100 */
     background: #ffffff; /* Old browsers */
     background: -moz-linear-gradient(top,  #ffffff 0%, #000000 100%); /* FF3.6-15 */
@@ -6162,4 +6163,25 @@ img.attachment-post-thumbnail{
     rgba(0,0,0,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
 
+}
+
+
+
+#single-header{
+    height: 60%;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+#single-header header{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+h1.single-title{
+    text-align:center;
+    font-size:3.4rem;
+    line-height:48px;
+    margin:50px 0px 50px 0px;
 }

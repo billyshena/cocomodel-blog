@@ -23,11 +23,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="single.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/single.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="0" selection-start="841" selection-end="841" vertical-scroll-proportion="-12.333333" vertical-offset="64" max-vertical-offset="735">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="54" selection-start="596" selection-end="596" vertical-scroll-proportion="14.458333" vertical-offset="452" max-vertical-offset="810">
-              <folding />
+            <state line="20" column="54" selection-start="596" selection-end="596" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="1005">
+              <folding>
+                <element signature="e#6#486#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,7 +48,7 @@
       <file leaf-file-name="content.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/content.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="59" selection-start="278" selection-end="278" vertical-scroll-proportion="6.875" vertical-offset="240" max-vertical-offset="600">
+            <state line="23" column="4" selection-start="344" selection-end="397" vertical-scroll-proportion="-7.5" vertical-offset="45" max-vertical-offset="630">
               <folding>
                 <element signature="n#style#0;n#article#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -46,7 +59,7 @@
       <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="14" selection-start="1116" selection-end="1116" vertical-scroll-proportion="-7.4166665" vertical-offset="272" max-vertical-offset="720">
+            <state line="31" column="3" selection-start="794" selection-end="1118" vertical-scroll-proportion="-3.75" vertical-offset="255" max-vertical-offset="720">
               <folding />
             </state>
           </provider>
@@ -55,7 +68,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5937" column="13" selection-start="96811" selection-end="96811" vertical-scroll-proportion="0.12078652" vertical-offset="89012" max-vertical-offset="92550">
+            <state line="6062" column="21" selection-start="98649" selection-end="98649" vertical-scroll-proportion="0.5421348" vertical-offset="90737" max-vertical-offset="92880">
               <folding />
             </state>
           </provider>
@@ -73,8 +86,9 @@
       <list>
         <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/single.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/style.css" />
       </list>
     </option>
@@ -386,7 +400,9 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
+          <folding>
+            <element signature="e#6#486#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -428,7 +444,9 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
+          <folding>
+            <element signature="e#6#486#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -580,13 +598,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-config-sample.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
@@ -608,32 +619,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/header.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="14" selection-start="1116" selection-end="1116" vertical-scroll-proportion="-7.4166665" vertical-offset="272" max-vertical-offset="720">
-          <folding />
+        <state line="20" column="54" selection-start="596" selection-end="596" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="1005">
+          <folding>
+            <element signature="e#6#486#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="54" selection-start="596" selection-end="596" vertical-scroll-proportion="14.458333" vertical-offset="452" max-vertical-offset="810">
+        <state line="31" column="3" selection-start="794" selection-end="1118" vertical-scroll-proportion="-3.75" vertical-offset="255" max-vertical-offset="720">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/content.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="59" selection-start="278" selection-end="278" vertical-scroll-proportion="6.875" vertical-offset="240" max-vertical-offset="600">
+        <state line="23" column="4" selection-start="344" selection-end="397" vertical-scroll-proportion="-7.5" vertical-offset="45" max-vertical-offset="630">
           <folding>
             <element signature="n#style#0;n#article#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="841" selection-end="841" vertical-scroll-proportion="-12.333333" vertical-offset="64" max-vertical-offset="735">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5937" column="13" selection-start="96811" selection-end="96811" vertical-scroll-proportion="0.12078652" vertical-offset="89012" max-vertical-offset="92550">
+        <state line="6062" column="21" selection-start="98649" selection-end="98649" vertical-scroll-proportion="0.5421348" vertical-offset="90737" max-vertical-offset="92880">
           <folding />
         </state>
       </provider>
